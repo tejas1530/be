@@ -35,5 +35,4 @@ mongoose_1.default.connection.on('error', (error) => {
 mongoose_1.default.connection.on('disconnected', () => {
     console.log('MongoDB disconnected');
 });
-exports.default = connectDB;
 //# sourceMappingURL=database.js.map
