@@ -1,10 +1,10 @@
 {
-  "name": "Todo-App ",
+  "name": "todo",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "nodemon  src/index.ts",
+    "start": "nodemon src/index.ts",
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
@@ -33,7 +33,6 @@
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/mongoose": "^5.11.97",
-    "@types/node": "^20.11.28",
     "@types/uuid": "^9.0.8",
     "nodemon": "^3.1.0",
     "pre-commit": "^1.2.2",
