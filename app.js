@@ -9,7 +9,7 @@ const app = express()
 
 app.use(cors(
     {
-        origin: ["http://localhost:4000","https://www.realedgetechnology.com/"],
+        origin: ["http://localhost:3000","https://www.realedgetechnology.com/"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
         credentials: true
