@@ -9,7 +9,7 @@ const app = express()
 
 app.use(cors(
     {
-        origin: ["http://localhost:4000","https://backend-todo-virid.vercel.app"],
+        origin: ["http://localhost:4000","https://www.realedgetechnology.com/"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
         credentials: true
@@ -27,7 +27,5 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/auth",router.authRouter)
 app.use("/api/v1/user", router.userRouter)
-app.use("/api/v1/category", router.categoryRouter)
-app.use("/api/v1/todo", router.TodoRouter)
 
 export default app
